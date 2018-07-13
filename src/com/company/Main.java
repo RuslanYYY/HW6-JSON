@@ -57,6 +57,12 @@ public class Main {
             catch (NumberFormatException nfe) {
                 System.out.println("Wrong date format");
             }
+            finally {
+                System.exit(0);
+
+
+            }
+
 
 //                    }
 //         catch (Exception o){
