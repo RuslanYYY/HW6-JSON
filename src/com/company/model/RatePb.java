@@ -3,14 +3,11 @@ package com.company.model;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
-import java.util.Scanner;
 
 public class RatePb {
 
 
     private String date;
-
-
 
 
     @SerializedName("exchangeRate")
